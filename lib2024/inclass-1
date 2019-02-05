@@ -1,0 +1,45 @@
+<!DOCTYPE html5>
+<html>
+<head>
+	<meta charset="utf-18">
+	<meta name="Author" content="Deanna Angel">
+	<meta name="description" content="This is a HTML document containing HTML tags">
+	<meta name="keywords" content="HTML, HTML5, Tags, Basic HTML, Standard Tags">
+	<meta name="robots" content="noindex, nofollow">
+</head>
+<body>
+	<header>
+	<h1>First Heading</h1>
+			<nav>
+				<ul>
+					<li>
+					<a href="https://algonquincollege.com">Algonquin College</a>
+					</li>
+					<li>
+					<a href="https://algonquincollege.com" title="Algonquin College">Alognquin College Link 2</a>
+					</li>
+					<li>
+					<a href="https://algonquincollege.com"></a>
+					</li>
+				</ul>
+			</nav>
+	</header>
+	<main>
+	<div>
+	<h2>Second Heading</h2>
+	<p><b>Bold Text</b></p>
+	</div>
+		<div>
+			<aside>
+			<p>This is the main part of section</p>
+			</aside>
+			<article>
+			<p>This is the less important part of section</p>
+			</article>
+		</div>
+	</main>
+</body>
+<footer>
+	<span><p>Footer Text</p></span>
+</footer>
+</html>
