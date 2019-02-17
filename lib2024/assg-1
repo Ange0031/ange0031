@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<meta charset="utf-8">
+	<meta name="description" content="This is a HTML document containing HTML tags">
+	<meta name="keywords" content="HTML, HTML5, Tags, Basic HTML, Standard Tags">
+	<meta name="robots" content="noindex, nofollow">
+	<meta name="Author" content="Deanna Angel">
+	<title><b>Assignment 1</b></title>
+	</head>
+	<body>
+		<h1><b>This is the main section</b></h1>
+		<br>
+			<div>I am a div</div>
+			<br>
+			<p>I am a paragraph</p>
+			<br>
+			<p> 
+			This paragraph has a 
+			<br>
+			Break
+			</p>
+		<h2><b>This is a section</b></h2>
+			<p>This is an important part of a section
+			This is a less important part of the section
+			<p>
+			<div><b>Some links in a Div</b></div>
+			<br>
+			<a href="https://www.google.ca">Google Link</a> <a href="https://www.amazon.ca">Amazon Link</a>
+			<br>
+			<div><b>Some links in a Div</div>
+			<br>
+				<ul>
+					<li>Unordered List Element 1</li>
+					<li>Unordered List Element 2</li>
+					<li>Unordered List Element 3</li>
+				</ul>
+
+				<ol>
+					<li>Ordered List 1</li>
+					<li>Ordered List 2</li>
+					<li>Ordered List 3</li>
+				</ol>
+			<br>
+			<footer> 
+			<p>This is the footer</p>
+			</footer>
+	</body>
+</html>
