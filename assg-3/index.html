@@ -1,0 +1,116 @@
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>Assignment 3</title>
+    <meta charset="utf-8">
+	<meta name="description" content="This is a HTML document containing HTML tags">
+	<meta name="keywords" content="HTML, HTML5, Tags, Basic HTML, Standard Tags">
+	<meta name="robots" content="noindex, nofollow">
+	
+	<link rel="stylesheet" type="text/css" href=styles.css>
+   
+</head>
+<body>
+		<main>
+		<h1>Assignment 3</h1>
+				<h2><b>Registration Form</b></h2> 
+				<form action="action_page.php">
+  <div class="container">
+    <p>Please fill in this form to create an account.</p>
+    <hr>
+
+    <label for="fname"><b>First Name</b></label>
+    <input type="text" placeholder="First Name" name="first name" required>
+
+    <label for="lname"><b>Last Name</b></label>
+    <input type="text" placeholder="Last Name" name="last name" required>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required>
+	
+	<label for="psword"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="password" required>
+	
+	<label for="intro"><b>Introductory Text</b></label>
+    <input type="text" placeholder="Introduction" name="introduction" required>
+	
+	<label for="date"><b>Date of Birth</b></label>
+    <input type="text" placeholder="Date of Birth" name="date" required>
+	
+	<label for="phone"><b>Mobile Number</b></label>
+    <input type="number" placeholder="Mobile Number" name="number" required> 
+	
+	<label for="gender"><b>Gender</b></label>
+    <input type="radio" name="gender" value="male"> Male<br>
+	<input type="radio" name="gender" value="female">Female<br>
+	<input type="radio" name="gender" value="other">Other<br>
+	
+	<label for="address"><b>Address</b></label>
+    <input type="text" placeholder="Address" name="address" required>
+	
+	<label for="city"><b>City</b></label>
+    <input type="text" placeholder="City" name="city" required>
+	
+	<label for="province"><b>Province</b></label>
+	<input type="option" name="province" required>
+	<select name="province">
+	<option value="alberta">Alberta</option>
+	<option value="british columbia">British Columbia</option>
+	<option value="manitoba">Manitoba</option>
+	<option value="new brunswick">New Brunswick</option>
+	<option value="newfoundland">Newfoundland</option>
+	<option value="northwest territories">Northwest Territories</option>
+	<option value="nunavut">Nunavut</option>
+	<option value="ontario">Ontario</option>
+	<option value="pei">Prince Edward Island</option>
+	<option value="quebec">Quebec</option>
+	<option value="saskatchewan">Saskatchewan</option>
+	<option value="yukon">Yukon</option>
+	</select>
+	
+	<label for="country"><b>Country</b></label>
+	<input type="option" name="country" required> 
+	<select name="country">
+	<option value="canadaanada">Canada</option>
+	<option value="united states">United States</option>
+	<option value="united kingdom">United Kingdom</option>
+	<option value="france">France</option>
+	<option value="spain">Spain</option>
+	<option value="germany">Germany</option>
+	<option value="switzerland">Switzerland</option>
+	<option value="italy">Italy</option>
+	<option value="china">China</option>
+	<option value="russia">Russia</option>
+	<option value="japan">Japan</option>
+	<option value="australia">Australia</option>
+	</select>
+	
+	<label for="postal code"><b>Postal Code</b></label>
+    <input type="text" placeholder="Postal Code" name="postal code" required>
+	
+	<label for="hobbies"><b>Hobbies/Interests</b></label>
+	<input type="option" name="hobbies" required> 
+	<select name="hobbies" size="4" multiple>
+	<option value="art">Art</option>
+	<option value="history">History</option>
+	<option value="literature">Literature</option>
+	<option value="math">Mathematics</option>
+	<option value="science">Science</option>
+	</select>
+	
+	<label for="website"><b>Website</b></label>
+    <input type="url" placeholder="Website" name="website" required>
+    <hr>
+
+    <p>By creating an account you agree to our <a href="#">Terms & Privacy</a>.</p>
+	<button type="reset" class="reset">Reset</button> 
+    <button type="submit" class="submit">Submit</button>
+  </div>
+</form>
+
+	<footer id="footer">
+	<br>	
+	</footer>
+	
+</body>
+</html>
