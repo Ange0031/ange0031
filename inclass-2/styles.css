@@ -1,0 +1,28 @@
+<head>
+	<style>
+	body{
+	background-color: #BA55D3;
+	}
+	
+	button {
+	background-color: #4CAF50; 
+	border: none;
+	color: black;
+	padding: 20px 35px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+}
+	
+	h1 {
+	color: black;
+	margin-left: 0px;
+	}
+	
+	footer{
+	background color: #BA55D3;
+	}
+	
+	</style>
+</head>
