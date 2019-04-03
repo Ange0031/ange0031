@@ -1,10 +1,10 @@
 <head>
 	<style>
-	body{
+	.body{
 	background-color: #3CB371;
 	}
 	
-	button {
+	.button {
 	background-color: #87CEFA; 
 	border: none;
 	color: black;
@@ -15,22 +15,22 @@
 	font-size: 16px;
 }
 	
-	h1 {
+	.h1 {
 	color: black;
 	margin-left: 0px;
 	}
 	
-	h2 {
+	.h2 {
 	color: black;
 	margin-left: 20px;
 	}
 	
-	h3 {
+	.h3 {
 	color: black;
 	margin-left: 10px;
 	}
 	
-	footer{
+	.footer{
 	background color: #3CB371;
 	}
 	
